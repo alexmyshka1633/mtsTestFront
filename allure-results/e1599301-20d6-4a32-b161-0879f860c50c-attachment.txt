@@ -1,0 +1,72 @@
+Invalid element state [By.xpath: //*[@class='ymaps-2-1-79-map']//*[@class='ymaps-2-1-79-placemark-overlay ymaps-2-1-79-user-selection-none']//ymaps[@class='ymaps-2-1-79-image ']]: element click intercepted: Element <ymaps class="ymaps-2-1-79-image " style="position: absolute; left: -11px; top: -38px; width: 36px; height: 36px; opacity: 1; background-position: 0px 0px; background-size: 36px 36px; background-image: url(&quot;https://www.mtsbank.ru/icons/map/bankOffice-closed-gray.svg&quot;);"></ymaps> is not clickable at point (648, 442). Other element would receive the click: <ymaps class="ymaps-2-1-79-events-pane ymaps-2-1-79-user-selection-none" unselectable="on" style="height: 100%; width: 100%; top: 0px; left: 0px; position: absolute; z-index: 2500; cursor: url(&quot;https://api-maps.yandex.ru/2.1.79/build/release/images/cursor/grab.cur&quot;) 16 16, url(&quot;https://api-maps.yandex.ru/2.1.79/build/release/images/cursor/grab.cur&quot;), move;"></ymaps>
+Screenshot: file:/F:/MAVEN/Финальный%20проект%202/build/reports/tests/1685045168523.2.png
+Page source: file:/F:/MAVEN/Финальный%20проект%202/build/reports/tests/1685045168523.2.html
+Timeout: 4 s.
+Caused by: ElementClickInterceptedException: element click intercepted: Element <ymaps class="ymaps-2-1-79-image " style="position: absolute; left: -11px; top: -38px; width: 36px; height: 36px; opacity: 1; background-position: 0px 0px; background-size: 36px 36px; background-image: url(&quot;https://www.mtsbank.ru/icons/map/bankOffice-closed-gray.svg&quot;);"></ymaps> is not clickable at point (648, 442). Other element would receive the click: <ymaps class="ymaps-2-1-79-events-pane ymaps-2-1-79-user-selection-none" unselectable="on" style="height: 100%; width: 100%; top: 0px; left: 0px; position: absolute; z-index: 2500; cursor: url(&quot;https://api-maps.yandex.ru/2.1.79/build/release/images/cursor/grab.cur&quot;) 16 16, url(&quot;https://api-maps.yandex.ru/2.1.79/build/release/images/cursor/grab.cur&quot;), move;"></ymaps>
+	at com.codeborne.selenide.impl.ExceptionWrapper.wrap(ExceptionWrapper.java:26)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:154)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+	at pages.web_mobile.MtsOfficeAndAtmPageMob.clickOfficeOnMap(MtsOfficeAndAtmPageMob.java:68)
+	at tests.web_mobile.MtsOfficeAndAtmMapMob.CosttinCalculater(MtsOfficeAndAtmMapMob.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at org.junit.runner.JUnitCore.runClasses(JUnitCore.java:62)
+	at org.junit.runner.JUnitCore.runClasses(JUnitCore.java:49)
+	at TestRunner.main(TestRunner.java:20)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <ymaps class="ymaps-2-1-79-image " style="position: absolute; left: -11px; top: -38px; width: 36px; height: 36px; opacity: 1; background-position: 0px 0px; background-size: 36px 36px; background-image: url(&quot;https://www.mtsbank.ru/icons/map/bankOffice-closed-gray.svg&quot;);"></ymaps> is not clickable at point (648, 442). Other element would receive the click: <ymaps class="ymaps-2-1-79-events-pane ymaps-2-1-79-user-selection-none" unselectable="on" style="height: 100%; width: 100%; top: 0px; left: 0px; position: absolute; z-index: 2500; cursor: url(&quot;https://api-maps.yandex.ru/2.1.79/build/release/images/cursor/grab.cur&quot;) 16 16, url(&quot;https://api-maps.yandex.ru/2.1.79/build/release/images/cursor/grab.cur&quot;), move;"></ymaps>
+  (Session info: chrome=113.0.5672.127)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7a7cb29ceb5025488dd9333dc456d4fa, clickElement {id=58DA38F381882892C5340B4301E90FC8_element_247}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\slalo\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52417}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52417/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (7a7cb29ceb5025488dd9333dc456d4fa)] -> xpath: //*[@class='ymaps-2-1-79-map']//*[@class='ymaps-2-1-79-placemark-overlay ymaps-2-1-79-user-selection-none']//ymaps[@class='ymaps-2-1-79-image ']]
+Session ID: 7a7cb29ceb5025488dd9333dc456d4fa
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at com.codeborne.selenide.commands.Click.defaultClick(Click.java:97)
+	at com.codeborne.selenide.commands.Click.click(Click.java:54)
+	at com.codeborne.selenide.commands.Click.execute(Click.java:31)
+	at com.codeborne.selenide.commands.Click.execute(Click.java:21)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:159)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
+	... 37 more

@@ -1,0 +1,1485 @@
+<html style="--scrollbar-width: 17px;"><head>
+    
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="format-detection" content="telephone=no">
+<meta name="zoom:lang" content="ru">
+<title>Публичное акционерное общество "МТС-Банк" | Банк России</title>
+
+    <meta name="robots" content="nofollow">
+
+
+    <meta property="og:image" content="/common/images/share-1.jpg">
+
+    
+
+
+      <link rel="stylesheet" type="text/css" href="/common/libs/jquery-ui/jquery-ui.min.css?v=v599209514" media="all">
+
+      <!--[if IE 9]><link rel="stylesheet" type="text/css" href="/common/style/main-ie9.css?v=v3063901475" media="all"><![endif]-->
+
+      <!--[if gt IE 9]><!--><link rel="stylesheet" type="text/css" href="/common/style/main.min.css?v=v937190578" media="all"><!--<![endif]-->
+
+
+    <script async="" src="https://mc.yandex.ru/metrika/tag.js"></script><script type="text/javascript" src="/common/libs/jquery-3.6.1.min.js?v=v3319810474"></script>
+
+
+
+    <script type="text/javascript" src="/common/libs/jquery-ui/jquery-ui.min.js?v=v3984001297"></script>
+
+    <script type="text/javascript" src="/common/libs/jquery.inputmask.min.js?v=v667694119"></script>
+
+
+    <script type="text/javascript" src="/common/scripts/vendor.js?v=v379964041"></script>
+
+    <script type="text/javascript" src="/common/libs/jquery.floatThead.min.js?v=v1513504054"></script>
+
+    <script type="text/javascript" src="/common/scripts/main.min.js?v=v630784037"></script>
+
+
+    <script type="text/javascript" src="/common/libs/localization-ru.js?v=v3093073943"></script>
+    <script type="text/javascript" src="/js/jquery.ui.autocomplete-ru.js?v=v1043438991"></script>
+
+    <script type="text/javascript" src="/js/jquery.cookie.min.js?v=v4260771145"></script>
+
+    <script type="text/javascript" src="/js/site.js?v=v1395547681"></script>
+
+
+
+
+
+<script src="/f/r/credit/credit.js?v=v1624050861" type="text/javascript"></script>
+    <script type="text/javascript">
+    $(function () {
+        var $menu = $('[data-menu]'),
+            $menuItemBtn = $menu.find('[data-menu-item-btn]'),
+            $menuShow = $('[data-menu-show]'),
+            $menuClose = $('[data-menu-close]');
+        var config = $menu.data('config');
+
+        $menu.find('[data-cms-wholesite-header-right]').html($('#header .header_right').html());
+
+        $menuShow.on('click.cms_loadwholesite', function (event) {
+            loadWholeSite(true);
+        });
+        $menuShow.on('mouseenter.cms_loadwholesite', function (event) {
+            loadWholeSite(false);
+        });
+
+        var xhr = null, g_openMenu = false;
+        function loadWholeSite(openmenu) {
+            g_openMenu = g_openMenu || openmenu;
+            $menuShow.off('click.cms_loadwholesite mouseenter.cms_loadwholesite');
+            if (xhr === null) {
+                $('.menu_wrap .networks-circle').html($('.networks-circle.footer_networks').html());
+                $('.menu_wrap .header_search').html($('.header .offsetMenu .header_search').html());
+
+                xhr = $.ajax(config.url, {
+                    dataType: "html",
+                    method: "get",
+                    success: function (html) {
+                        $('[data-cms-wholesite-placeholder]').replaceWith(html);
+
+                        $menu.find('.menu_tab[data-tabs-tab]').each(function () {
+                            var tab = $(this).data('tabs-tab');
+                            $(this).toggle($menu.find('[data-tabs-content="' + tab + '"]').length != 0);
+                        });
+
+                        app.init($menu);
+
+                        for (var i in config.catalogPath) {
+                            $menu.find('li[data-catalog-id="' + config.catalogPath[i] + '"]')
+                                .addClass("_active");
+                            $menu.find('li[data-catalog-id="' + config.catalogPath[i] + '"]')
+                                .closest('[data-tabs-content]')
+                                .trigger('open-anchor');
+                        }
+
+                        
+                        xhr = true;
+                    },
+                    error: function () {
+                        xhr = null;
+                    }
+                });
+            }
+        }
+    });
+    </script>
+
+
+<script>
+  if (window.localStorage) {
+    if (localStorage.getItem('vision-impaired'))
+      document.getElementsByTagName('html')[0].className += ' vision-impaired';
+  }
+</script>
+<script>
+    document.documentElement.style.setProperty('--scrollbar-width', '17px');
+    setTimeout(function () {
+        
+        var div = document.createElement('div');
+
+        div.style.overflowY = 'scroll';
+        div.style.width = '50px';
+        div.style.height = '50px';
+
+        
+        div.style.visibility = 'hidden';
+
+        document.body.appendChild(div);
+        var scrollWidth = Math.max(div.offsetWidth - div.clientWidth, 0.15); 
+        document.body.removeChild(div);
+        
+        document.documentElement.style.setProperty('--scrollbar-width', scrollWidth + 'px');
+    }, 0);
+</script>
+
+
+
+    
+</head>
+<body>
+    
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+       (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+       m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+       (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+       ym(5774506, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true
+       });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/5774506" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->   
+
+    
+    
+<div class="old-site-version" data-old-site-version="" style="display: block;">
+    <div class="offsetMenu">
+            <div class="old-site-version_text">
+<a href="/support_measures/">МЕРЫ ЗАЩИТЫ ФИНАНСОВОГО РЫНКА</a>
+            </div>
+    </div>
+</div>
+
+    <div class="header-print">
+        <div class="offsetMenu">
+            <div class="header-print_inner">
+                <img class="header-print_logo" alt="cbr" src="/common/images/logo.svg">
+                <ul class="header-print_contacts">
+<li>ул. Неглинная, 12, Москва, 107016</li>
+
+<li><nobr class="phone">8 800 300-30-00</nobr></li>
+<li>www.cbr.ru</li>
+</ul>
+
+            </div>
+        </div>
+    </div>
+    <header class="header" id="header">
+        <div class="top-line" data-top-line="">
+            <div class="offsetMenu">
+                <div class="col-md-23 offset-md-1">
+                    <div class="top-line_inner header_inner">
+                        <div class="row">
+                            <div class="col-xl-5 col-md-9">
+                                <div class="header_left">
+                                        <div class="header_menu" data-menu-show=""></div>
+                                    <a class="header_logo" href="/"></a>
+                                </div>
+                            </div>
+                            <div class="col-xl-17 col-md-13 offset-md-1 header_block">
+                                <div class="header_search">
+                                        <a class="header_search_btn" href="#" data-search-form-show="" title="поиск">
+        <div class="header_search_icon"></div><span class="d-none d-xl-block">Поиск по сайту</span>
+    </a>
+
+                                </div>
+                                <div class="d-none d-md-block">
+                                    <div class="header_right">
+                                        <div class="header_link"><a href="/reception/">Интернет-приемная</a></div><div class="header_lang">
+            <div class="header_lang_item _active"><span><!--noindex-->RU<!--/noindex--></span></div>
+            <div class="header_lang_item"><a href="/Localization/SwitchLanguage?url=%2Fbanking_sector%2Fcredit%2Fcoinfo%2F%3Fid%3D450000343&amp;from=ru-RU&amp;to=en-CB"><!--noindex-->EN<!--/noindex--></a></div>
+</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="offsetMenu">
+            <div class="col-md-23 offset-md-1">
+                <div class="header_inner">
+                    <div class="row">
+                        <div class="col-xl-5 col-md-9">
+                            <div class="header_left">
+                                    <div class="header_menu" data-menu-show=""></div>
+                                <a class="header_logo" href="/"></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-17 col-md-13 offset-md-1 header_block">
+                            <div class="header_search">
+                                    <a class="header_search_btn" href="#" data-search-form-show="" title="поиск">
+        <div class="header_search_icon"></div><span class="d-none d-xl-block">Поиск по сайту</span>
+    </a>
+
+                            </div>
+                            <div class="d-none d-md-block">
+                                <div class="header_right">
+                                    <div class="header_link"><a href="/reception/">Интернет-приемная</a></div><div class="header_lang">
+            <div class="header_lang_item _active"><span><!--noindex-->RU<!--/noindex--></span></div>
+            <div class="header_lang_item"><a href="/Localization/SwitchLanguage?url=%2Fbanking_sector%2Fcredit%2Fcoinfo%2F%3Fid%3D450000343&amp;from=ru-RU&amp;to=en-CB"><!--noindex-->EN<!--/noindex--></a></div>
+</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <form class="search-form" action="/search/" method="get" data-search-form="">
+    <div class="offsetMenu">
+        <div class="col-md-23 offset-md-1">
+            <div class="search-form_inner">
+                <div class="search-form_title">Что вы хотите найти?</div>
+                <div class="search-form_content">
+                    <div class="search-form_block">
+                        <div class="search-form_icon"></div>
+                        <div class="search-form_field">
+                            <input name="text" type="text" placeholder="Начните писать" data-search-form-input="">
+                        </div>
+                    </div>
+                    <div class="search-form_btn">
+                        <button class="b-btn _blue" data-search-form-btn="" disabled="">Искать</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+
+
+<div class="menu_wrap" data-menu="" data-config="{&quot;catalogPath&quot;:[22125,16161,16160],&quot;url&quot;:&quot;/Catalog/SiteMap/GetWholeSiteHtml?blockId=59191&quot;}">
+    <div class="offsetMenu">
+        <div class="header_menu _close menu_close d-none d-md-block" data-menu-close=""></div>
+        <div class="header_inner top-line_inner d-block d-md-none">
+            <div class="row">
+                <div class="col-xl-5 col-md-9">
+                    <div class="header_left">
+                        <div role="button" tabindex="0" aria-label="Закрыть меню" class="header_menu _close" data-menu-close=""></div><a class="header_logo" href="/"></a>
+                    </div>
+                </div>
+                <div class="col-xl-17 col-md-13 offset-md-1 header_block">
+                    <div class="header_search"></div>
+                </div>
+            </div>
+        </div>
+        <div class="menu row" data-tabs="data-tabs">
+            <div class="menu_quick col-md-7">
+                <div role="tablist" class="menu_quick_tabs">
+    <a role="tab" id="menu_tab_Activity" aria-controls="menu_content_Activity" aria-selected="true" class="menu_tab _active" href="#" data-tabs-tab="Activity">Деятельность</a>
+    <a role="tab" id="menu_tab_FinancialMarkets" aria-controls="menu_content_FinancialMarkets" aria-selected="false" class="menu_tab" href="#" data-tabs-tab="FinancialMarkets">Финансовые рынки</a>
+    <a role="tab" id="menu_tab_Documents" aria-controls="menu_content_Documents" aria-selected="false" class="menu_tab" href="#" data-tabs-tab="Documents">Документы и данные</a>
+    <a role="tab" id="menu_tab_AboutBank" aria-controls="menu_content_AboutBank" aria-selected="false" class="menu_tab" href="#" data-tabs-tab="AboutBank">О Банке России</a>
+    <a role="tab" id="menu_tab_Services" aria-controls="menu_content_Services" aria-selected="false" class="menu_tab" href="#" data-tabs-tab="Services">Сервисы</a>
+</div>
+<div class="menu_quick_links">
+    <div class="inner_links"><a href="/support_measures/" title="Меры зашиты финансового рынка" style="color:red">Меры защиты финансового рынка</a>
+  </div>
+<div class="phones"><a class="menu_phone_val" href="tel:+74993003000">
+<div class="plus">+</div>7 499 300-30-00</a><a class="menu_phone_val" href="tel:88003003000">8 800 300-30-00</a><a class="menu_phone_val" href="tel:300">300</a><span>Бесплатно для звонков с мобильных телефонов</span></div>
+<div class="inner_links">
+  <a href="/news/" title="Новости">Новости</a>
+  <a href="/rbr/" title="Решения Банка России">Решения Банка России</a>
+  <a href="/contacts/" title="Контактная информация">Контактная информация</a>
+  <a href="/sitemap" title="Карта сайта">Карта сайта</a>
+  <a href="/about/" title="О сайте">О сайте</a>
+  </div>
+<div class="networks-circle">
+ <!-- <a class="networks-circle_item _fb" href="https://www.facebook.com/cbr.ru/" title="Facebook"></a> -->
+<!--  <a class="networks-circle_item _ig" href="https://www.instagram.com/cbrf_official/" title="Instagram"></a>-->
+  <a class="networks-circle_item _vk" href="https://vk.com/cbr_official" title="ВКонтакте"></a>
+<!--  <a class="networks-circle_item _tw" href="https://twitter.com/bank_of_russia" title="Twitter"></a>-->
+  <a class="networks-circle_item _yt" href="https://www.youtube.com/user/BankofRussia" title="Youtube"></a>
+  <a class="networks-circle_item _tg" href="https://t.me/centralbank_russia" title="Telegram"></a>
+  <a class="networks-circle_item _ydzen" href="https://zen.yandex.ru/id/622372d6a565892091994ea9" title="Яндекс Дзен"></a>
+  <a class="networks-circle_item _ok" href="https://ok.ru/group/68858679787580" title="Одноклассники"></a>
+</div>
+</div>
+            </div>
+            <div class="d-md-none link-above">
+                <div class="header_right" data-cms-wholesite-header-right="">
+                                        <div class="header_link"><a href="/reception/">Интернет-приемная</a></div><div class="header_lang">
+            <div class="header_lang_item _active"><span><!--noindex-->RU<!--/noindex--></span></div>
+            <div class="header_lang_item"><a href="/Localization/SwitchLanguage?url=%2Fbanking_sector%2Fcredit%2Fcoinfo%2F%3Fid%3D450000343&amp;from=ru-RU&amp;to=en-CB"><!--noindex-->EN<!--/noindex--></a></div>
+</div>
+                                    </div>
+                    <div class="header_right">
+                        <div class="header_link"><a href="/fmp_check/">Проверить финансовую организацию</a></div>
+                    </div>
+            </div>
+            <div class="menu_content_container col-md with-centered-loader" data-cms-wholesite-placeholder="">
+            </div>
+        </div>
+    </div>
+</div>
+
+    <main id="content">
+        <div class="offsetMenu">
+            <div class="container-fluid">
+                <div class="col-md-23 offset-md-1">
+                    <div class="breadcrumbs">
+    <div class="breadcrumbs_item"><a class="breadcrumbs_home" href="/"></a></div>
+        <div class="breadcrumbs_item">
+            <a href="/banking_sector/"><!--noindex-->Банковский сектор<!--/noindex--></a>
+        </div>
+        <div class="breadcrumbs_item">
+            <a href="/banking_sector/credit/"><!--noindex-->Информация о&nbsp;кредитных организациях<!--/noindex--></a>
+        </div>
+    </div>
+
+                    <!--index-->
+<h1><span class="referenceable">Публичное акционерное общество "МТС-Банк"</span>
+</h1>
+                                        
+
+
+
+
+
+
+                                                                                <style type="text/css">
+/*<![CDATA[*/
+@import url('/f/r/credit/credit.css');
+@import url('/f/r/search-map/search-map.css');
+/*]]*/
+</style><div class="org_info">
+  <div class="coinfo block-part">
+    <div class="coinfo_item row">
+      <div class="coinfo_item_title col-md-9">Полное фирменное наименование</div>
+      <div class="coinfo_item_text col-md-13 offset-md-1">Публичное акционерное общество "МТС-Банк"</div>
+    </div>
+    <div class="coinfo_item row">
+      <div class="coinfo_item_title col-md-9">Сокращённое фирменное наименование</div>
+      <div class="coinfo_item_text col-md-13 offset-md-1">ПАО "МТС-Банк"</div>
+    </div>
+    <div class="coinfo_item row">
+      <div class="coinfo_item_title col-md-9">Регистрационный номер</div>
+      <div class="coinfo_item_text col-md-13 offset-md-1">2268</div>
+    </div>
+    <div class="coinfo_item row">
+      <div class="coinfo_item_title col-md-9">Дата регистрации Банком России</div>
+      <div class="coinfo_item_text col-md-13 offset-md-1">29.01.1993</div>
+    </div>
+    <div class="coinfo_item row">
+      <div class="coinfo_item_title col-md-9">Основной государственный регистрационный номер</div>
+      <div class="coinfo_item_text col-md-13 offset-md-1">1027739053704 (08.08.2002)
+                        </div>
+    </div>
+    <div class="coinfo_item row">
+      <div class="coinfo_item_title col-md-9">БИК</div>
+      <div class="coinfo_item_text col-md-13 offset-md-1">044525232</div>
+    </div>
+    <div class="coinfo_item row">
+      <div class="coinfo_item_title col-md-9">Адрес из устава</div>
+      <div class="coinfo_item_text col-md-13 offset-md-1">115432,  г. Москва, проспект Андропова, д. 18, корп.1</div>
+    </div>
+    <div class="coinfo_item row">
+      <div class="coinfo_item_title col-md-9">Адрес фактический</div>
+      <div class="coinfo_item_text col-md-13 offset-md-1">115432,  г. Москва, проспект Андропова, д. 18, корп.1</div>
+    </div>
+    <div class="coinfo_item row">
+      <div class="coinfo_item_title col-md-9">Телефон</div>
+      <div class="coinfo_item_text col-md-13 offset-md-1">(495) 921-28-00</div>
+    </div>
+    <div class="coinfo_item row">
+      <div class="coinfo_item_title col-md-9">Устав</div>
+      <div class="coinfo_item_text col-md-13 offset-md-1">
+                        Дата согласования последней редакции устава:   14.08.2020
+                            ,
+                            cогласованные изменения в уставe: прочие изменения (09.09.2022)
+                        </div>
+    </div>
+    <div class="coinfo_item row">
+      <div class="coinfo_item_title col-md-9">Уставный капитал</div>
+      <div class="coinfo_item_text col-md-13 offset-md-1">15 015 046 500,00 руб., дата изменения величины уставного капитала: 10.09.2021</div>
+    </div>
+    <div class="coinfo_item row">
+      <div class="coinfo_item_title col-md-9">
+                    Лицензия (дата выдачи/последней замены)
+                    <br><em>Банками с базовой лицензией являются банки, имеющие лицензию, в названии которой присутствует слово «базовая». Все остальные действующие банки являются банками с универсальной лицензией </em></div>
+      <div class="coinfo_item_text col-md-13 offset-md-1">Лицензия на привлечение во вклады и размещение драгоценных металлов (17.12.2014)<br>Генеральная лицензия на осуществление банковских операций (17.12.2014)<br><p class="file ZIP small_icon"><a href="/vfs/credit/licenses/lic_2268.zip" target="_blank"><i class="icon"></i> Лицензии
+                                            </a></p>
+      </div>
+    </div>
+    <div class="coinfo_item row">
+      <div class="coinfo_item_title col-md-9">Участие в системе страхования вкладов</div>
+      <div class="coinfo_item_text col-md-13 offset-md-1">Да</div>
+    </div>
+    <div class="coinfo_item row">
+      <div class="coinfo_item_title col-md-9">Фирменное наименование на английском языке</div>
+      <div class="coinfo_item_text col-md-13 offset-md-1">Public Joint-Stock Company "MTS Bank"; PJSC "MTS Bank"</div>
+    </div>
+  </div>
+  <div class="block-title">
+    <h2 class="h3">Информационные сайты и страницы организации в социальных сетях</h2>
+  </div>
+  <div class="block-part">
+    <div class="tabs _links _cols-3"><a class="tab" href="https://ok.ru/group/54564585799926">https://ok.ru/group/54564585799926</a><a class="tab" href="https://vk.com/mtsbank.ru">https://vk.com/mtsbank.ru</a><a class="tab" href="https://www.mtsbank.ru">https://www.mtsbank.ru</a></div>
+  </div>
+</div>
+<h4><a href="/ref/fo/branches/ogrn/1027739053704/bnk/">
+                    Информация о подразделениях
+                </a></h4>
+<div class="table-wrapper">
+  <div class="table">
+    <table class="data without_header">
+      <tbody>
+        <tr>
+          <td>Дополнительные офисы</td>
+          <td>104</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div class="reports">
+  <h2>Данные оборотной ведомости по счетам бухгалтерского учёта</h2>
+  <h3>Форма 101</h3>
+  <div class="versions" data-versions="data-versions">
+    <div class="versions_select_wrap"><select class="versions_select" data-versions-select="data-versions-select"><option value="2022">2022 год
+        </option>
+        <option value="2021">2021 год
+        </option>
+        <option value="2020">2020 год
+        </option>
+        <option value="2019">2019 год
+        </option>
+        <option value="2018">2018 год
+        </option>
+        <option value="2017">2017 год
+        </option>
+        <option value="2016">2016 год
+        </option>
+        <option value="2015">2015 год
+        </option>
+        <option value="2014">2014 год
+        </option>
+        <option value="2013">2013 год
+        </option>
+        <option value="2012">2012 год
+        </option>
+        <option value="2011">2011 год
+        </option>
+        <option value="2010">2010 год
+        </option>
+        <option value="2009">2009 год
+        </option>
+        <option value="2008">2008 год
+        </option>
+        <option value="2007">2007 год
+        </option>
+        <option value="2006">2006 год
+        </option>
+        <option value="2005">2005 год
+        </option>
+        <option value="2004">2004 год
+        </option>
+        <option value="2003">2003 год
+        </option></select><div class="dropdown_select"></div>
+    </div>
+    <div data-versions-items="2022" data-item-select="2022" class="versions_items _active"><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2022-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2022-02-01">
+                    на 1 февраля</a></div>
+    <div data-versions-items="2021" data-item-select="2021" class="versions_items"><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2021-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2021-02-01">
+                    на 1 февраля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2021-03-01">
+                    на 1 марта</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2021-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2021-05-01">
+                    на 1 мая</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2021-06-01">
+                    на 1 июня</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2021-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2021-08-01">
+                    на 1 августа</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2021-09-01">
+                    на 1 сентября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2021-10-01">
+                    на 1 октября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2021-11-01">
+                    на 1 ноября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2021-12-01">
+                    на 1 декабря</a></div>
+    <div data-versions-items="2020" data-item-select="2020" class="versions_items"><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2020-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2020-02-01">
+                    на 1 февраля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2020-03-01">
+                    на 1 марта</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2020-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2020-05-01">
+                    на 1 мая</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2020-06-01">
+                    на 1 июня</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2020-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2020-08-01">
+                    на 1 августа</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2020-09-01">
+                    на 1 сентября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2020-10-01">
+                    на 1 октября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2020-11-01">
+                    на 1 ноября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2020-12-01">
+                    на 1 декабря</a></div>
+    <div data-versions-items="2019" data-item-select="2019" class="versions_items"><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2019-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2019-02-01">
+                    на 1 февраля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2019-03-01">
+                    на 1 марта</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2019-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2019-05-01">
+                    на 1 мая</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2019-06-01">
+                    на 1 июня</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2019-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2019-08-01">
+                    на 1 августа</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2019-09-01">
+                    на 1 сентября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2019-10-01">
+                    на 1 октября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2019-11-01">
+                    на 1 ноября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2019-12-01">
+                    на 1 декабря</a></div>
+    <div data-versions-items="2018" data-item-select="2018" class="versions_items"><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2018-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2018-02-01">
+                    на 1 февраля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2018-03-01">
+                    на 1 марта</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2018-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2018-05-01">
+                    на 1 мая</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2018-06-01">
+                    на 1 июня</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2018-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2018-08-01">
+                    на 1 августа</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2018-09-01">
+                    на 1 сентября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2018-10-01">
+                    на 1 октября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2018-11-01">
+                    на 1 ноября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2018-12-01">
+                    на 1 декабря</a></div>
+    <div data-versions-items="2017" data-item-select="2017" class="versions_items"><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2017-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2017-02-01">
+                    на 1 февраля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2017-03-01">
+                    на 1 марта</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2017-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2017-05-01">
+                    на 1 мая</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2017-06-01">
+                    на 1 июня</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2017-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2017-08-01">
+                    на 1 августа</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2017-09-01">
+                    на 1 сентября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2017-10-01">
+                    на 1 октября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2017-11-01">
+                    на 1 ноября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2017-12-01">
+                    на 1 декабря</a></div>
+    <div data-versions-items="2016" data-item-select="2016" class="versions_items"><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2016-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2016-02-01">
+                    на 1 февраля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2016-03-01">
+                    на 1 марта</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2016-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2016-05-01">
+                    на 1 мая</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2016-06-01">
+                    на 1 июня</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2016-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2016-08-01">
+                    на 1 августа</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2016-09-01">
+                    на 1 сентября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2016-10-01">
+                    на 1 октября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2016-11-01">
+                    на 1 ноября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2016-12-01">
+                    на 1 декабря</a></div>
+    <div data-versions-items="2015" data-item-select="2015" class="versions_items"><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2015-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2015-02-01">
+                    на 1 февраля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2015-03-01">
+                    на 1 марта</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2015-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2015-05-01">
+                    на 1 мая</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2015-06-01">
+                    на 1 июня</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2015-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2015-08-01">
+                    на 1 августа</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2015-09-01">
+                    на 1 сентября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2015-10-01">
+                    на 1 октября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2015-11-01">
+                    на 1 ноября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2015-12-01">
+                    на 1 декабря</a></div>
+    <div data-versions-items="2014" data-item-select="2014" class="versions_items"><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2014-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2014-02-01">
+                    на 1 февраля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2014-03-01">
+                    на 1 марта</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2014-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2014-05-01">
+                    на 1 мая</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2014-06-01">
+                    на 1 июня</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2014-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2014-08-01">
+                    на 1 августа</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2014-09-01">
+                    на 1 сентября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2014-10-01">
+                    на 1 октября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2014-11-01">
+                    на 1 ноября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2014-12-01">
+                    на 1 декабря</a></div>
+    <div data-versions-items="2013" data-item-select="2013" class="versions_items"><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2013-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2013-02-01">
+                    на 1 февраля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2013-03-01">
+                    на 1 марта</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2013-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2013-05-01">
+                    на 1 мая</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2013-06-01">
+                    на 1 июня</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2013-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2013-08-01">
+                    на 1 августа</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2013-09-01">
+                    на 1 сентября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2013-10-01">
+                    на 1 октября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2013-11-01">
+                    на 1 ноября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2013-12-01">
+                    на 1 декабря</a></div>
+    <div data-versions-items="2012" data-item-select="2012" class="versions_items"><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2012-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2012-02-01">
+                    на 1 февраля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2012-03-01">
+                    на 1 марта</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2012-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2012-05-01">
+                    на 1 мая</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2012-06-01">
+                    на 1 июня</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2012-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2012-08-01">
+                    на 1 августа</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2012-09-01">
+                    на 1 сентября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2012-10-01">
+                    на 1 октября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2012-11-01">
+                    на 1 ноября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2012-12-01">
+                    на 1 декабря</a></div>
+    <div data-versions-items="2011" data-item-select="2011" class="versions_items"><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2011-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2011-02-01">
+                    на 1 февраля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2011-03-01">
+                    на 1 марта</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2011-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2011-05-01">
+                    на 1 мая</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2011-06-01">
+                    на 1 июня</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2011-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2011-08-01">
+                    на 1 августа</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2011-09-01">
+                    на 1 сентября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2011-10-01">
+                    на 1 октября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2011-11-01">
+                    на 1 ноября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2011-12-01">
+                    на 1 декабря</a></div>
+    <div data-versions-items="2010" data-item-select="2010" class="versions_items"><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2010-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2010-02-01">
+                    на 1 февраля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2010-03-01">
+                    на 1 марта</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2010-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2010-05-01">
+                    на 1 мая</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2010-06-01">
+                    на 1 июня</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2010-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2010-08-01">
+                    на 1 августа</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2010-09-01">
+                    на 1 сентября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2010-10-01">
+                    на 1 октября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2010-11-01">
+                    на 1 ноября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2010-12-01">
+                    на 1 декабря</a></div>
+    <div data-versions-items="2009" data-item-select="2009" class="versions_items"><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2009-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2009-02-01">
+                    на 1 февраля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2009-03-01">
+                    на 1 марта</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2009-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2009-05-01">
+                    на 1 мая</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2009-06-01">
+                    на 1 июня</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2009-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2009-08-01">
+                    на 1 августа</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2009-09-01">
+                    на 1 сентября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2009-10-01">
+                    на 1 октября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2009-11-01">
+                    на 1 ноября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2009-12-01">
+                    на 1 декабря</a></div>
+    <div data-versions-items="2008" data-item-select="2008" class="versions_items"><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2008-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2008-02-01">
+                    на 1 февраля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2008-03-01">
+                    на 1 марта</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2008-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2008-05-01">
+                    на 1 мая</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2008-06-01">
+                    на 1 июня</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2008-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2008-08-01">
+                    на 1 августа</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2008-09-01">
+                    на 1 сентября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2008-10-01">
+                    на 1 октября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2008-11-01">
+                    на 1 ноября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2008-12-01">
+                    на 1 декабря</a></div>
+    <div data-versions-items="2007" data-item-select="2007" class="versions_items"><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=92982&amp;dt=2007-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2007-02-01">
+                    на 1 февраля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2007-03-01">
+                    на 1 марта</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2007-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2007-05-01">
+                    на 1 мая</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2007-06-01">
+                    на 1 июня</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2007-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2007-08-01">
+                    на 1 августа</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2007-09-01">
+                    на 1 сентября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2007-10-01">
+                    на 1 октября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2007-11-01">
+                    на 1 ноября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Включая обороты" href="f101?regnum=2268&amp;dt=2007-12-01">
+                    на 1 декабря</a></div>
+    <div data-versions-items="2006" data-item-select="2006" class="versions_items"><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=40121&amp;dt=2006-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=40986&amp;dt=2006-02-01">
+                    на 1 февраля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=41785&amp;dt=2006-03-01">
+                    на 1 марта</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=42638&amp;dt=2006-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=43225&amp;dt=2006-05-01">
+                    на 1 мая</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=44083&amp;dt=2006-06-01">
+                    на 1 июня</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=44678&amp;dt=2006-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=45539&amp;dt=2006-08-01">
+                    на 1 августа</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=47976&amp;dt=2006-09-01">
+                    на 1 сентября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=48579&amp;dt=2006-10-01">
+                    на 1 октября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=49462&amp;dt=2006-11-01">
+                    на 1 ноября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=81296&amp;dt=2006-12-01">
+                    на 1 декабря</a></div>
+    <div data-versions-items="2005" data-item-select="2005" class="versions_items"><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=29553&amp;dt=2005-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=30370&amp;dt=2005-02-01">
+                    на 1 февраля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=31148&amp;dt=2005-03-01">
+                    на 1 марта</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=32009&amp;dt=2005-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=32578&amp;dt=2005-05-01">
+                    на 1 мая</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=33410&amp;dt=2005-06-01">
+                    на 1 июня</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=33993&amp;dt=2005-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=36383&amp;dt=2005-08-01">
+                    на 1 августа</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=37234&amp;dt=2005-09-01">
+                    на 1 сентября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=37815&amp;dt=2005-10-01">
+                    на 1 октября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=38680&amp;dt=2005-11-01">
+                    на 1 ноября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=39274&amp;dt=2005-12-01">
+                    на 1 декабря</a></div>
+    <div data-versions-items="2004" data-item-select="2004" class="versions_items"><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=20057&amp;dt=2004-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=20810&amp;dt=2004-02-01">
+                    на 1 февраля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=21764&amp;dt=2004-03-01">
+                    на 1 марта</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=21847&amp;dt=2004-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=23081&amp;dt=2004-05-01">
+                    на 1 мая</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=23879&amp;dt=2004-06-01">
+                    на 1 июня</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=24542&amp;dt=2004-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=25964&amp;dt=2004-08-01">
+                    на 1 августа</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=26818&amp;dt=2004-09-01">
+                    на 1 сентября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=27107&amp;dt=2004-10-01">
+                    на 1 октября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=28155&amp;dt=2004-11-01">
+                    на 1 ноября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=28717&amp;dt=2004-12-01">
+                    на 1 декабря</a></div>
+    <div data-versions-items="2003" data-item-select="2003" class="versions_items"><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=16205&amp;dt=2003-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=16990&amp;dt=2003-08-01">
+                    на 1 августа</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=17561&amp;dt=2003-09-01">
+                    на 1 сентября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=18073&amp;dt=2003-10-01">
+                    на 1 октября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=18800&amp;dt=2003-11-01">
+                    на 1 ноября</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="Без оборотов" href="f101old?regnum=2268&amp;when=19318&amp;dt=2003-12-01">
+                    на 1 декабря</a></div><button class="more _hide" data-versions-toggle="data-versions-toggle" style="display: none;"><span class="open">Ещё +</span><span class="close">Свернуть -</span></button></div>
+  <h2>Отчёт о финансовых результатах</h2>
+  <h3>Форма 102, квартальная</h3>
+  <div class="versions" data-versions="data-versions">
+    <div class="versions_select_wrap"><select class="versions_select" data-versions-select="data-versions-select"><option value="2022">2022 год
+        </option>
+        <option value="2021">2021 год
+        </option>
+        <option value="2020">2020 год
+        </option>
+        <option value="2019">2019 год
+        </option>
+        <option value="2018">2018 год
+        </option>
+        <option value="2017">2017 год
+        </option>
+        <option value="2016">2016 год
+        </option>
+        <option value="2015">2015 год
+        </option>
+        <option value="2014">2014 год
+        </option>
+        <option value="2013">2013 год
+        </option>
+        <option value="2012">2012 год
+        </option>
+        <option value="2011">2011 год
+        </option>
+        <option value="2010">2010 год
+        </option>
+        <option value="2009">2009 год
+        </option>
+        <option value="2008">2008 год
+        </option>
+        <option value="2007">2007 год
+        </option>
+        <option value="2006">2006 год
+        </option>
+        <option value="2005">2005 год
+        </option>
+        <option value="2004">2004 год
+        </option>
+        <option value="2003">2003 год
+        </option></select><div class="dropdown_select"></div>
+    </div>
+    <div data-versions-items="2022" data-item-select="2022" class="versions_items _active"><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2022-01-01">
+                    на 1 января</a></div>
+    <div data-versions-items="2021" data-item-select="2021" class="versions_items"><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2021-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2021-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2021-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2021-10-01">
+                    на 1 октября</a></div>
+    <div data-versions-items="2020" data-item-select="2020" class="versions_items"><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2020-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2020-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2020-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2020-10-01">
+                    на 1 октября</a></div>
+    <div data-versions-items="2019" data-item-select="2019" class="versions_items"><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2019-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2019-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2019-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2019-10-01">
+                    на 1 октября</a></div>
+    <div data-versions-items="2018" data-item-select="2018" class="versions_items"><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2018-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2018-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2018-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2018-10-01">
+                    на 1 октября</a></div>
+    <div data-versions-items="2017" data-item-select="2017" class="versions_items"><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2017-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2017-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2017-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2017-10-01">
+                    на 1 октября</a></div>
+    <div data-versions-items="2016" data-item-select="2016" class="versions_items"><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2016-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2016-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2016-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2016-10-01">
+                    на 1 октября</a></div>
+    <div data-versions-items="2015" data-item-select="2015" class="versions_items"><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2015-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2015-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2015-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2015-10-01">
+                    на 1 октября</a></div>
+    <div data-versions-items="2014" data-item-select="2014" class="versions_items"><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2014-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2014-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2014-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2014-10-01">
+                    на 1 октября</a></div>
+    <div data-versions-items="2013" data-item-select="2013" class="versions_items"><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2013-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2013-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2013-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2013-10-01">
+                    на 1 октября</a></div>
+    <div data-versions-items="2012" data-item-select="2012" class="versions_items"><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2012-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2012-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2012-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2012-10-01">
+                    на 1 октября</a></div>
+    <div data-versions-items="2011" data-item-select="2011" class="versions_items"><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2011-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2011-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2011-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2011-10-01">
+                    на 1 октября</a></div>
+    <div data-versions-items="2010" data-item-select="2010" class="versions_items"><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2010-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2010-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2010-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2010-10-01">
+                    на 1 октября</a></div>
+    <div data-versions-items="2009" data-item-select="2009" class="versions_items"><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2009-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2009-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2009-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2009-10-01">
+                    на 1 октября</a></div>
+    <div data-versions-items="2008" data-item-select="2008" class="versions_items"><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2008-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2008-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2008-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2008-10-01">
+                    на 1 октября</a></div>
+    <div data-versions-items="2007" data-item-select="2007" class="versions_items"><a class="versions_item" data-versions-item="" href="f102old?regnum=2268&amp;when=18898">
+                    на 1 января</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2007-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2007-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" data-tooltip="data-tooltip" data-tooltip-type="black" title="В полном объеме" href="f102?regnum=2268&amp;dt=2007-10-01">
+                    на 1 октября</a></div>
+    <div data-versions-items="2006" data-item-select="2006" class="versions_items"><a class="versions_item" data-versions-item="" href="f102old?regnum=2268&amp;when=15970">
+                    на 1 января</a><a class="versions_item" data-versions-item="" href="f102old?regnum=2268&amp;when=16733">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" href="f102old?regnum=2268&amp;when=17465">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" href="f102old?regnum=2268&amp;when=18198">
+                    на 1 октября</a></div>
+    <div data-versions-items="2005" data-item-select="2005" class="versions_items"><a class="versions_item" data-versions-item="" href="f102old?regnum=2268&amp;when=13062">
+                    на 1 января</a><a class="versions_item" data-versions-item="" href="f102old?regnum=2268&amp;when=13798">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" href="f102old?regnum=2268&amp;when=14512">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" href="f102old?regnum=2268&amp;when=15233">
+                    на 1 октября</a></div>
+    <div data-versions-items="2004" data-item-select="2004" class="versions_items"><a class="versions_item" data-versions-item="" href="f102old?regnum=2268&amp;when=10355">
+                    на 1 января</a><a class="versions_item" data-versions-item="" href="f102old?regnum=2268&amp;when=11030">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" href="f102old?regnum=2268&amp;when=11680">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" href="f102old?regnum=2268&amp;when=12359">
+                    на 1 октября</a></div>
+    <div data-versions-items="2003" data-item-select="2003" class="versions_items"><a class="versions_item" data-versions-item="" href="f102old?regnum=2268&amp;when=9213">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" href="f102old?regnum=2268&amp;when=9732">
+                    на 1 октября</a></div><button class="more _hide" data-versions-toggle="data-versions-toggle" style="display: none;"><span class="open">Ещё +</span><span class="close">Свернуть -</span></button></div>
+  <h2>Расчёт собственных средств (капитала) («Базель III»)</h2>
+  <h3>Форма 123</h3>
+  <div class="versions" data-versions="data-versions">
+    <div class="versions_select_wrap"><select class="versions_select" data-versions-select="data-versions-select"><option value="2022">2022 год
+        </option>
+        <option value="2021">2021 год
+        </option>
+        <option value="2020">2020 год
+        </option>
+        <option value="2019">2019 год
+        </option>
+        <option value="2018">2018 год
+        </option>
+        <option value="2017">2017 год
+        </option>
+        <option value="2016">2016 год
+        </option>
+        <option value="2015">2015 год
+        </option>
+        <option value="2014">2014 год
+        </option></select><div class="dropdown_select"></div>
+    </div>
+    <div data-versions-items="2022" data-item-select="2022" class="versions_items _active"><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2022-01-01">
+            на 1 января</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2022-02-01">
+            на 1 февраля</a></div>
+    <div data-versions-items="2021" data-item-select="2021" class="versions_items"><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2021-01-01">
+            на 1 января</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2021-02-01">
+            на 1 февраля</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2021-03-01">
+            на 1 марта</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2021-04-01">
+            на 1 апреля</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2021-05-01">
+            на 1 мая</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2021-06-01">
+            на 1 июня</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2021-07-01">
+            на 1 июля</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2021-08-01">
+            на 1 августа</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2021-09-01">
+            на 1 сентября</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2021-10-01">
+            на 1 октября</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2021-11-01">
+            на 1 ноября</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2021-12-01">
+            на 1 декабря</a></div>
+    <div data-versions-items="2020" data-item-select="2020" class="versions_items"><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2020-01-01">
+            на 1 января</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2020-02-01">
+            на 1 февраля</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2020-03-01">
+            на 1 марта</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2020-04-01">
+            на 1 апреля</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2020-05-01">
+            на 1 мая</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2020-06-01">
+            на 1 июня</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2020-07-01">
+            на 1 июля</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2020-08-01">
+            на 1 августа</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2020-09-01">
+            на 1 сентября</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2020-10-01">
+            на 1 октября</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2020-11-01">
+            на 1 ноября</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2020-12-01">
+            на 1 декабря</a></div>
+    <div data-versions-items="2019" data-item-select="2019" class="versions_items"><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2019-01-01">
+            на 1 января</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2019-02-01">
+            на 1 февраля</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2019-03-01">
+            на 1 марта</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2019-04-01">
+            на 1 апреля</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2019-05-01">
+            на 1 мая</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2019-06-01">
+            на 1 июня</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2019-07-01">
+            на 1 июля</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2019-08-01">
+            на 1 августа</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2019-09-01">
+            на 1 сентября</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2019-10-01">
+            на 1 октября</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2019-11-01">
+            на 1 ноября</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2019-12-01">
+            на 1 декабря</a></div>
+    <div data-versions-items="2018" data-item-select="2018" class="versions_items"><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2018-01-01">
+            на 1 января</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2018-02-01">
+            на 1 февраля</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2018-03-01">
+            на 1 марта</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2018-04-01">
+            на 1 апреля</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2018-05-01">
+            на 1 мая</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2018-06-01">
+            на 1 июня</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2018-07-01">
+            на 1 июля</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2018-08-01">
+            на 1 августа</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2018-09-01">
+            на 1 сентября</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2018-10-01">
+            на 1 октября</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2018-11-01">
+            на 1 ноября</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2018-12-01">
+            на 1 декабря</a></div>
+    <div data-versions-items="2017" data-item-select="2017" class="versions_items"><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2017-01-01">
+            на 1 января</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2017-02-01">
+            на 1 февраля</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2017-03-01">
+            на 1 марта</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2017-04-01">
+            на 1 апреля</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2017-05-01">
+            на 1 мая</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2017-06-01">
+            на 1 июня</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2017-07-01">
+            на 1 июля</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2017-08-01">
+            на 1 августа</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2017-09-01">
+            на 1 сентября</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2017-10-01">
+            на 1 октября</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2017-11-01">
+            на 1 ноября</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2017-12-01">
+            на 1 декабря</a></div>
+    <div data-versions-items="2016" data-item-select="2016" class="versions_items"><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2016-01-01">
+            на 1 января</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2016-02-01">
+            на 1 февраля</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2016-03-01">
+            на 1 марта</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2016-04-01">
+            на 1 апреля</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2016-05-01">
+            на 1 мая</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2016-06-01">
+            на 1 июня</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2016-07-01">
+            на 1 июля</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2016-08-01">
+            на 1 августа</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2016-09-01">
+            на 1 сентября</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2016-10-01">
+            на 1 октября</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2016-11-01">
+            на 1 ноября</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2016-12-01">
+            на 1 декабря</a></div>
+    <div data-versions-items="2015" data-item-select="2015" class="versions_items"><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2015-01-01">
+            на 1 января</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2015-02-01">
+            на 1 февраля</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2015-03-01">
+            на 1 марта</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2015-04-01">
+            на 1 апреля</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2015-05-01">
+            на 1 мая</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2015-06-01">
+            на 1 июня</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2015-07-01">
+            на 1 июля</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2015-08-01">
+            на 1 августа</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2015-09-01">
+            на 1 сентября</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2015-10-01">
+            на 1 октября</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2015-11-01">
+            на 1 ноября</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2015-12-01">
+            на 1 декабря</a></div>
+    <div data-versions-items="2014" data-item-select="2014" class="versions_items"><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2014-02-01">
+            на 1 февраля</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2014-03-01">
+            на 1 марта</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2014-04-01">
+            на 1 апреля</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2014-05-01">
+            на 1 мая</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2014-06-01">
+            на 1 июня</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2014-07-01">
+            на 1 июля</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2014-08-01">
+            на 1 августа</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2014-09-01">
+            на 1 сентября</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2014-10-01">
+            на 1 октября</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2014-11-01">
+            на 1 ноября</a><a class="versions_item" data-versions-item="" title="" href="f123?regnum=2268&amp;dt=2014-12-01">
+            на 1 декабря</a></div><button class="more _hide" data-versions-toggle="data-versions-toggle" style="display: none;"><span class="open">Ещё +</span><span class="close">Свернуть -</span></button></div>
+  <h2>Расчёт собственных средств (капитала)</h2>
+  <h3>Форма 134</h3>
+  <div class="versions" data-versions="data-versions">
+    <div class="versions_select_wrap"><select class="versions_select" data-versions-select="data-versions-select"><option value="2015">2015 год
+        </option>
+        <option value="2014">2014 год
+        </option>
+        <option value="2012">2012 год
+        </option>
+        <option value="2011">2011 год
+        </option>
+        <option value="2010">2010 год
+        </option></select><div class="dropdown_select"></div>
+    </div>
+    <div data-versions-items="2015" data-item-select="2015" class="versions_items _active"><a class="versions_item" data-versions-item="" title="" href="f134b?regnum=2268&amp;dt=2015-01-01">
+            на 1 января</a></div>
+    <div data-versions-items="2014" data-item-select="2014" class="versions_items"><a class="versions_item" data-versions-item="" title="" href="f134b?regnum=2268&amp;dt=2014-04-01">
+            на 1 апреля</a><a class="versions_item" data-versions-item="" title="" href="f134b?regnum=2268&amp;dt=2014-05-01">
+            на 1 мая</a><a class="versions_item" data-versions-item="" title="" href="f134b?regnum=2268&amp;dt=2014-06-01">
+            на 1 июня</a><a class="versions_item" data-versions-item="" title="" href="f134b?regnum=2268&amp;dt=2014-07-01">
+            на 1 июля</a><a class="versions_item" data-versions-item="" title="" href="f134b?regnum=2268&amp;dt=2014-08-01">
+            на 1 августа</a><a class="versions_item" data-versions-item="" title="" href="f134b?regnum=2268&amp;dt=2014-09-01">
+            на 1 сентября</a><a class="versions_item" data-versions-item="" title="" href="f134b?regnum=2268&amp;dt=2014-10-01">
+            на 1 октября</a><a class="versions_item" data-versions-item="" title="" href="f134b?regnum=2268&amp;dt=2014-11-01">
+            на 1 ноября</a><a class="versions_item" data-versions-item="" title="" href="f134b?regnum=2268&amp;dt=2014-12-01">
+            на 1 декабря</a></div>
+    <div data-versions-items="2012" data-item-select="2012" class="versions_items"><a class="versions_item" data-versions-item="" title="" href="f134b?regnum=2268&amp;dt=2012-01-01">
+            на 1 января</a><a class="versions_item" data-versions-item="" title="" href="f134b?regnum=2268&amp;dt=2012-02-01">
+            на 1 февраля</a><a class="versions_item" data-versions-item="" title="" href="f134b?regnum=2268&amp;dt=2012-03-01">
+            на 1 марта</a><a class="versions_item" data-versions-item="" title="" href="f134b?regnum=2268&amp;dt=2012-04-01">
+            на 1 апреля</a><a class="versions_item" data-versions-item="" title="" href="f134b?regnum=2268&amp;dt=2012-05-01">
+            на 1 мая</a></div>
+    <div data-versions-items="2011" data-item-select="2011" class="versions_items"><a class="versions_item" data-versions-item="" title="" href="f134b?regnum=2268&amp;dt=2011-01-01">
+            на 1 января</a><a class="versions_item" data-versions-item="" title="" href="f134b?regnum=2268&amp;dt=2011-02-01">
+            на 1 февраля</a><a class="versions_item" data-versions-item="" title="" href="f134b?regnum=2268&amp;dt=2011-03-01">
+            на 1 марта</a><a class="versions_item" data-versions-item="" title="" href="f134b?regnum=2268&amp;dt=2011-04-01">
+            на 1 апреля</a><a class="versions_item" data-versions-item="" title="" href="f134b?regnum=2268&amp;dt=2011-05-01">
+            на 1 мая</a><a class="versions_item" data-versions-item="" title="" href="f134b?regnum=2268&amp;dt=2011-06-01">
+            на 1 июня</a><a class="versions_item" data-versions-item="" title="" href="f134b?regnum=2268&amp;dt=2011-07-01">
+            на 1 июля</a><a class="versions_item" data-versions-item="" title="" href="f134b?regnum=2268&amp;dt=2011-08-01">
+            на 1 августа</a><a class="versions_item" data-versions-item="" title="" href="f134b?regnum=2268&amp;dt=2011-09-01">
+            на 1 сентября</a><a class="versions_item" data-versions-item="" title="" href="f134b?regnum=2268&amp;dt=2011-10-01">
+            на 1 октября</a><a class="versions_item" data-versions-item="" title="" href="f134b?regnum=2268&amp;dt=2011-11-01">
+            на 1 ноября</a><a class="versions_item" data-versions-item="" title="" href="f134b?regnum=2268&amp;dt=2011-12-01">
+            на 1 декабря</a></div>
+    <div data-versions-items="2010" data-item-select="2010" class="versions_items"><a class="versions_item" data-versions-item="" title="" href="f134b?regnum=2268&amp;dt=2010-06-01">
+            на 1 июня</a><a class="versions_item" data-versions-item="" title="" href="f134b?regnum=2268&amp;dt=2010-07-01">
+            на 1 июля</a><a class="versions_item" data-versions-item="" title="" href="f134b?regnum=2268&amp;dt=2010-08-01">
+            на 1 августа</a><a class="versions_item" data-versions-item="" title="" href="f134b?regnum=2268&amp;dt=2010-09-01">
+            на 1 сентября</a><a class="versions_item" data-versions-item="" title="" href="f134b?regnum=2268&amp;dt=2010-10-01">
+            на 1 октября</a><a class="versions_item" data-versions-item="" title="" href="f134b?regnum=2268&amp;dt=2010-12-01">
+            на 1 декабря</a></div><button class="more _hide" data-versions-toggle="data-versions-toggle" style="display: none;"><span class="open">Ещё +</span><span class="close">Свернуть -</span></button></div>
+  <h2>Информация об обязательных нормативах и о других показателях деятельности кредитной организации</h2>
+  <h3>Форма 135</h3>
+  <div class="versions" data-versions="data-versions">
+    <div class="versions_select_wrap"><select class="versions_select" data-versions-select="data-versions-select"><option value="2022">2022 год
+        </option>
+        <option value="2021">2021 год
+        </option>
+        <option value="2020">2020 год
+        </option>
+        <option value="2019">2019 год
+        </option>
+        <option value="2018">2018 год
+        </option>
+        <option value="2017">2017 год
+        </option>
+        <option value="2016">2016 год
+        </option>
+        <option value="2015">2015 год
+        </option>
+        <option value="2014">2014 год
+        </option>
+        <option value="2012">2012 год
+        </option>
+        <option value="2011">2011 год
+        </option>
+        <option value="2010">2010 год
+        </option></select><div class="dropdown_select"></div>
+    </div>
+    <div data-versions-items="2022" data-item-select="2022" class="versions_items _active"><a class="versions_item" data-versions-item="" title="" href="f135/2151?regnum=2268&amp;dt=2022-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" title="" href="f135/2151?regnum=2268&amp;dt=2022-02-01">
+                    на 1 февраля</a></div>
+    <div data-versions-items="2021" data-item-select="2021" class="versions_items"><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2021-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2021-02-01">
+                    на 1 февраля</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2021-03-01">
+                    на 1 марта</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2021-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" title="" href="f135/2151?regnum=2268&amp;dt=2021-05-01">
+                    на 1 мая</a><a class="versions_item" data-versions-item="" title="" href="f135/2151?regnum=2268&amp;dt=2021-06-01">
+                    на 1 июня</a><a class="versions_item" data-versions-item="" title="" href="f135/2151?regnum=2268&amp;dt=2021-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" title="" href="f135/2151?regnum=2268&amp;dt=2021-08-01">
+                    на 1 августа</a><a class="versions_item" data-versions-item="" title="" href="f135/2151?regnum=2268&amp;dt=2021-09-01">
+                    на 1 сентября</a><a class="versions_item" data-versions-item="" title="" href="f135/2151?regnum=2268&amp;dt=2021-10-01">
+                    на 1 октября</a><a class="versions_item" data-versions-item="" title="" href="f135/2151?regnum=2268&amp;dt=2021-11-01">
+                    на 1 ноября</a><a class="versions_item" data-versions-item="" title="" href="f135/2151?regnum=2268&amp;dt=2021-12-01">
+                    на 1 декабря</a></div>
+    <div data-versions-items="2020" data-item-select="2020" class="versions_items"><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2020-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2020-02-01">
+                    на 1 февраля</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2020-03-01">
+                    на 1 марта</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2020-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2020-05-01">
+                    на 1 мая</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2020-06-01">
+                    на 1 июня</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2020-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2020-08-01">
+                    на 1 августа</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2020-09-01">
+                    на 1 сентября</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2020-10-01">
+                    на 1 октября</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2020-11-01">
+                    на 1 ноября</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2020-12-01">
+                    на 1 декабря</a></div>
+    <div data-versions-items="2019" data-item-select="2019" class="versions_items"><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2019-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2019-02-01">
+                    на 1 февраля</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2019-03-01">
+                    на 1 марта</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2019-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2019-05-01">
+                    на 1 мая</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2019-06-01">
+                    на 1 июня</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2019-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2019-08-01">
+                    на 1 августа</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2019-09-01">
+                    на 1 сентября</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2019-10-01">
+                    на 1 октября</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2019-11-01">
+                    на 1 ноября</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2019-12-01">
+                    на 1 декабря</a></div>
+    <div data-versions-items="2018" data-item-select="2018" class="versions_items"><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2018-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2018-02-01">
+                    на 1 февраля</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2018-03-01">
+                    на 1 марта</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2018-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2018-05-01">
+                    на 1 мая</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2018-06-01">
+                    на 1 июня</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2018-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2018-08-01">
+                    на 1 августа</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2018-09-01">
+                    на 1 сентября</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2018-10-01">
+                    на 1 октября</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2018-11-01">
+                    на 1 ноября</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2018-12-01">
+                    на 1 декабря</a></div>
+    <div data-versions-items="2017" data-item-select="2017" class="versions_items"><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2017-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2017-02-01">
+                    на 1 февраля</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2017-03-01">
+                    на 1 марта</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2017-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2017-05-01">
+                    на 1 мая</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2017-06-01">
+                    на 1 июня</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2017-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2017-08-01">
+                    на 1 августа</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2017-09-01">
+                    на 1 сентября</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2017-10-01">
+                    на 1 октября</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2017-11-01">
+                    на 1 ноября</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2017-12-01">
+                    на 1 декабря</a></div>
+    <div data-versions-items="2016" data-item-select="2016" class="versions_items"><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2016-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2016-02-01">
+                    на 1 февраля</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2016-03-01">
+                    на 1 марта</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2016-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2016-05-01">
+                    на 1 мая</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2016-06-01">
+                    на 1 июня</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2016-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2016-08-01">
+                    на 1 августа</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2016-09-01">
+                    на 1 сентября</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2016-10-01">
+                    на 1 октября</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2016-11-01">
+                    на 1 ноября</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2016-12-01">
+                    на 1 декабря</a></div>
+    <div data-versions-items="2015" data-item-select="2015" class="versions_items"><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2015-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2015-02-01">
+                    на 1 февраля</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2015-03-01">
+                    на 1 марта</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2015-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2015-05-01">
+                    на 1 мая</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2015-06-01">
+                    на 1 июня</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2015-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2015-08-01">
+                    на 1 августа</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2015-09-01">
+                    на 1 сентября</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2015-10-01">
+                    на 1 октября</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2015-11-01">
+                    на 1 ноября</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2015-12-01">
+                    на 1 декабря</a></div>
+    <div data-versions-items="2014" data-item-select="2014" class="versions_items"><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2014-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2014-05-01">
+                    на 1 мая</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2014-06-01">
+                    на 1 июня</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2014-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2014-08-01">
+                    на 1 августа</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2014-09-01">
+                    на 1 сентября</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2014-10-01">
+                    на 1 октября</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2014-11-01">
+                    на 1 ноября</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2014-12-01">
+                    на 1 декабря</a></div>
+    <div data-versions-items="2012" data-item-select="2012" class="versions_items"><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2012-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2012-02-01">
+                    на 1 февраля</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2012-03-01">
+                    на 1 марта</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2012-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2012-05-01">
+                    на 1 мая</a></div>
+    <div data-versions-items="2011" data-item-select="2011" class="versions_items"><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2011-01-01">
+                    на 1 января</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2011-02-01">
+                    на 1 февраля</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2011-03-01">
+                    на 1 марта</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2011-04-01">
+                    на 1 апреля</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2011-05-01">
+                    на 1 мая</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2011-06-01">
+                    на 1 июня</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2011-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2011-08-01">
+                    на 1 августа</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2011-09-01">
+                    на 1 сентября</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2011-10-01">
+                    на 1 октября</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2011-11-01">
+                    на 1 ноября</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2011-12-01">
+                    на 1 декабря</a></div>
+    <div data-versions-items="2010" data-item-select="2010" class="versions_items"><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2010-06-01">
+                    на 1 июня</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2010-07-01">
+                    на 1 июля</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2010-08-01">
+                    на 1 августа</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2010-09-01">
+                    на 1 сентября</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2010-10-01">
+                    на 1 октября</a><a class="versions_item" data-versions-item="" title="" href="f135?regnum=2268&amp;dt=2010-12-01">
+                    на 1 декабря</a></div><button class="more _hide" data-versions-toggle="data-versions-toggle" style="display: none;"><span class="open">Ещё +</span><span class="close">Свернуть -</span></button></div>
+  <h2>Консолидированный балансовый отчёт</h2>
+  <h3>Форма 802</h3>
+  <div class="versions" data-versions="data-versions">
+    <div class="versions_select_wrap"><select class="versions_select" data-versions-select="data-versions-select"><option value="2021">2021 год
+        </option>
+        <option value="2020">2020 год
+        </option>
+        <option value="2019">2019 год
+        </option>
+        <option value="2018">2018 год
+        </option>
+        <option value="2017">2017 год
+        </option></select><div class="dropdown_select"></div>
+    </div>
+    <div data-versions-items="2021" data-item-select="2021" class="versions_items _active"><a class="versions_item" data-versions-item="" title="" href="f802?regnum=2268&amp;dt=202012">
+            на 1 января</a><a class="versions_item" data-versions-item="" title="" href="f802?regnum=2268&amp;dt=202103">
+            на 1 апреля</a><a class="versions_item" data-versions-item="" title="" href="f802?regnum=2268&amp;dt=202106">
+            на 1 июля</a><a class="versions_item" data-versions-item="" title="" href="f802?regnum=2268&amp;dt=202109">
+            на 1 октября</a></div>
+    <div data-versions-items="2020" data-item-select="2020" class="versions_items"><a class="versions_item" data-versions-item="" title="" href="f802?regnum=2268&amp;dt=201912">
+            на 1 января</a><a class="versions_item" data-versions-item="" title="" href="f802?regnum=2268&amp;dt=202003">
+            на 1 апреля</a><a class="versions_item" data-versions-item="" title="" href="f802?regnum=2268&amp;dt=202006">
+            на 1 июля</a><a class="versions_item" data-versions-item="" title="" href="f802?regnum=2268&amp;dt=202009">
+            на 1 октября</a></div>
+    <div data-versions-items="2019" data-item-select="2019" class="versions_items"><a class="versions_item" data-versions-item="" title="" href="f802?regnum=2268&amp;dt=201812">
+            на 1 января</a><a class="versions_item" data-versions-item="" title="" href="f802?regnum=2268&amp;dt=201903">
+            на 1 апреля</a><a class="versions_item" data-versions-item="" title="" href="f802?regnum=2268&amp;dt=201906">
+            на 1 июля</a><a class="versions_item" data-versions-item="" title="" href="f802?regnum=2268&amp;dt=201909">
+            на 1 октября</a></div>
+    <div data-versions-items="2018" data-item-select="2018" class="versions_items"><a class="versions_item" data-versions-item="" title="" href="f802?regnum=2268&amp;dt=201712">
+            на 1 января</a><a class="versions_item" data-versions-item="" title="" href="f802?regnum=2268&amp;dt=201803">
+            на 1 апреля</a><a class="versions_item" data-versions-item="" title="" href="f802?regnum=2268&amp;dt=201806">
+            на 1 июля</a><a class="versions_item" data-versions-item="" title="" href="f802?regnum=2268&amp;dt=201809">
+            на 1 октября</a></div>
+    <div data-versions-items="2017" data-item-select="2017" class="versions_items"><a class="versions_item" data-versions-item="" title="" href="f802?regnum=2268&amp;dt=201709">
+            на 1 октября</a></div><button class="more _hide" data-versions-toggle="data-versions-toggle" style="display: none;"><span class="open">Ещё +</span><span class="close">Свернуть -</span></button></div>
+  <h2>Консолидированный отчёт о финансовых результатах</h2>
+  <h3>Форма 803</h3>
+  <div class="versions" data-versions="data-versions">
+    <div class="versions_select_wrap"><select class="versions_select" data-versions-select="data-versions-select"><option value="2021">2021 год
+        </option>
+        <option value="2020">2020 год
+        </option>
+        <option value="2019">2019 год
+        </option>
+        <option value="2018">2018 год
+        </option>
+        <option value="2017">2017 год
+        </option></select><div class="dropdown_select"></div>
+    </div>
+    <div data-versions-items="2021" data-item-select="2021" class="versions_items _active"><a class="versions_item" data-versions-item="" title="" href="f803?regnum=2268&amp;dt=202012">
+            на 1 января</a><a class="versions_item" data-versions-item="" title="" href="f803?regnum=2268&amp;dt=202103">
+            на 1 апреля</a><a class="versions_item" data-versions-item="" title="" href="f803?regnum=2268&amp;dt=202106">
+            на 1 июля</a><a class="versions_item" data-versions-item="" title="" href="f803?regnum=2268&amp;dt=202109">
+            на 1 октября</a></div>
+    <div data-versions-items="2020" data-item-select="2020" class="versions_items"><a class="versions_item" data-versions-item="" title="" href="f803?regnum=2268&amp;dt=201912">
+            на 1 января</a><a class="versions_item" data-versions-item="" title="" href="f803?regnum=2268&amp;dt=202003">
+            на 1 апреля</a><a class="versions_item" data-versions-item="" title="" href="f803?regnum=2268&amp;dt=202006">
+            на 1 июля</a><a class="versions_item" data-versions-item="" title="" href="f803?regnum=2268&amp;dt=202009">
+            на 1 октября</a></div>
+    <div data-versions-items="2019" data-item-select="2019" class="versions_items"><a class="versions_item" data-versions-item="" title="" href="f803?regnum=2268&amp;dt=201812">
+            на 1 января</a><a class="versions_item" data-versions-item="" title="" href="f803?regnum=2268&amp;dt=201903">
+            на 1 апреля</a><a class="versions_item" data-versions-item="" title="" href="f803?regnum=2268&amp;dt=201906">
+            на 1 июля</a><a class="versions_item" data-versions-item="" title="" href="f803?regnum=2268&amp;dt=201909">
+            на 1 октября</a></div>
+    <div data-versions-items="2018" data-item-select="2018" class="versions_items"><a class="versions_item" data-versions-item="" title="" href="f803?regnum=2268&amp;dt=201712">
+            на 1 января</a><a class="versions_item" data-versions-item="" title="" href="f803?regnum=2268&amp;dt=201803">
+            на 1 апреля</a><a class="versions_item" data-versions-item="" title="" href="f803?regnum=2268&amp;dt=201806">
+            на 1 июля</a><a class="versions_item" data-versions-item="" title="" href="f803?regnum=2268&amp;dt=201809">
+            на 1 октября</a></div>
+    <div data-versions-items="2017" data-item-select="2017" class="versions_items"><a class="versions_item" data-versions-item="" title="" href="f803?regnum=2268&amp;dt=201709">
+            на 1 октября</a></div><button class="more _hide" data-versions-toggle="data-versions-toggle" style="display: none;"><span class="open">Ещё +</span><span class="close">Свернуть -</span></button></div>
+  <h2>Расчёт собственных средств (капитала) и значений обязательных нормативов банковской группы</h2>
+  <h3>Форма 805</h3>
+  <div class="versions" data-versions="data-versions">
+    <div class="versions_select_wrap"><select class="versions_select" data-versions-select="data-versions-select"><option value="2021">2021 год
+        </option>
+        <option value="2020">2020 год
+        </option>
+        <option value="2019">2019 год
+        </option>
+        <option value="2018">2018 год
+        </option>
+        <option value="2017">2017 год
+        </option></select><div class="dropdown_select"></div>
+    </div>
+    <div data-versions-items="2021" data-item-select="2021" class="versions_items _active"><a class="versions_item" data-versions-item="" title="" href="f805?regnum=2268&amp;dt=202012">
+            на 1 января</a><a class="versions_item" data-versions-item="" title="" href="f805?regnum=2268&amp;dt=202103">
+            на 1 апреля</a><a class="versions_item" data-versions-item="" title="" href="f805?regnum=2268&amp;dt=202106">
+            на 1 июля</a><a class="versions_item" data-versions-item="" title="" href="f805?regnum=2268&amp;dt=202109">
+            на 1 октября</a></div>
+    <div data-versions-items="2020" data-item-select="2020" class="versions_items"><a class="versions_item" data-versions-item="" title="" href="f805?regnum=2268&amp;dt=201912">
+            на 1 января</a><a class="versions_item" data-versions-item="" title="" href="f805?regnum=2268&amp;dt=202003">
+            на 1 апреля</a><a class="versions_item" data-versions-item="" title="" href="f805?regnum=2268&amp;dt=202006">
+            на 1 июля</a><a class="versions_item" data-versions-item="" title="" href="f805?regnum=2268&amp;dt=202009">
+            на 1 октября</a></div>
+    <div data-versions-items="2019" data-item-select="2019" class="versions_items"><a class="versions_item" data-versions-item="" title="" href="f805?regnum=2268&amp;dt=201812">
+            на 1 января</a><a class="versions_item" data-versions-item="" title="" href="f805?regnum=2268&amp;dt=201903">
+            на 1 апреля</a><a class="versions_item" data-versions-item="" title="" href="f805?regnum=2268&amp;dt=201906">
+            на 1 июля</a><a class="versions_item" data-versions-item="" title="" href="f805?regnum=2268&amp;dt=201909">
+            на 1 октября</a></div>
+    <div data-versions-items="2018" data-item-select="2018" class="versions_items"><a class="versions_item" data-versions-item="" title="" href="f805?regnum=2268&amp;dt=201712">
+            на 1 января</a><a class="versions_item" data-versions-item="" title="" href="f805?regnum=2268&amp;dt=201803">
+            на 1 апреля</a><a class="versions_item" data-versions-item="" title="" href="f805?regnum=2268&amp;dt=201806">
+            на 1 июля</a><a class="versions_item" data-versions-item="" title="" href="f805?regnum=2268&amp;dt=201809">
+            на 1 октября</a></div>
+    <div data-versions-items="2017" data-item-select="2017" class="versions_items"><a class="versions_item" data-versions-item="" title="" href="f805?regnum=2268&amp;dt=201709">
+            на 1 октября</a></div><button class="more _hide" data-versions-toggle="data-versions-toggle" style="display: none;"><span class="open">Ещё +</span><span class="close">Свернуть -</span></button></div>
+  <h2>Годовая (промежуточная) отчётность</h2>
+  <div class="versions" data-versions="data-versions">
+    <div class="versions_items _active" data-versions-items="" data-item-select=""><a class="versions_item" href="a2021/?regnum=2268">2021</a><a class="versions_item" href="a2020/?regnum=2268">2020</a><a class="versions_item" href="a2019/?regnum=2268">2019</a><a class="versions_item" href="a2018/?regnum=2268">2018</a><a class="versions_item" href="AnnaulReport2017/?regnum=2268">2017</a><a class="versions_item" href="AnnaulReport2016/?regnum=2268">2016</a><a class="versions_item" href="AnnaulReport2015/?regnum=2268">2015</a><a class="versions_item" href="AnnaulReport2014/?regnum=2268">2014</a><a class="versions_item" href="AnnaulReport2013/?regnum=2268">2013</a><a class="versions_item" href="AnnaulReport2012/?regnum=2268">2012</a><a class="versions_item" href="AnnaulReport2011/?regnum=2268">2011</a><a class="versions_item" href="AnnaulReport2010/?regnum=2268">2010</a><a class="versions_item" href="AnnaulReport2009/?regnum=2268">2009</a><a class="versions_item" href="AnnaulReport2008/?when=2008&amp;regnum=2268">2008</a><a class="versions_item" href="annual?when=2007&amp;regnum=2268">2007</a><a class="versions_item" href="annual?when=2006&amp;regnum=2268">2006</a><a class="versions_item" href="annual?when=2005&amp;regnum=2268">2005</a><a class="versions_item" href="annual?when=2004&amp;regnum=2268">2004</a><a class="versions_item" href="balance/?when=2003&amp;regnum=2268">2003</a><a class="versions_item" href="balance/?when=2002&amp;regnum=2268">2002</a><a class="versions_item" href="balance/?when=2001&amp;regnum=2268">2001</a><a class="versions_item" href="balance/?when=2000&amp;regnum=2268">2000</a><a class="versions_item" href="balance/?when=1999&amp;regnum=2268">1999</a><a class="versions_item" href="balance98?regnum=2268">1998, баланс
+                </a><a class="versions_item" href="profit98?regnum=2268">1998, отчет о прибылях и убытках
+                </a><a class="versions_item" href="balance97?nom=1302">1997, баланс
+                </a><a class="versions_item" href="profit97?nom=1302">1997, отчет о прибылях и убытках
+                </a></div><span class="more _hide" data-versions-toggle="data-versions-toggle" style="display: none;"><span class="open">Ещё +</span><span class="close">Свернуть -</span></span></div>
+</div>
+<h2>Информация о принимаемых рисках, процедурах их оценки, управления рисками и капиталом банковской группы</h2>
+<div class="versions" data-versions="data-versions">
+  <div class="versions_select_wrap"><select class="versions_select" data-versions-select="data-versions-select"><option value="2021">2021 год
+                                </option>
+      <option value="2020">2020 год
+                                </option>
+      <option value="2019">2019 год
+                                </option></select><div class="dropdown_select"></div>
+  </div>
+  <div data-versions-items="2021" data-item-select="2021" class="versions_items _active"><a class="versions_item" href="/vfs/credit/annual/2020/inrbg/202101/2268.rar">на 1 января</a><a class="versions_item" href="/vfs/credit/annual/2021/inrbg/202104/2268.rar">на 1 апреля</a><a class="versions_item" href="/vfs/credit/annual/2021/inrbg/202107/2268.rar">на 1 июля</a><a class="versions_item" href="/vfs/credit/annual/2021/inrbg/202110/2268.rar">на 1 октября</a></div>
+  <div class="versions_items" data-versions-items="2020" data-item-select="2020"><a class="versions_item" href="/vfs/credit/annual/2019/inrbg/202001/2268.rar">на 1 января</a><a class="versions_item" href="/vfs/credit/annual/2020/inrbg/202004/2268.rar">на 1 апреля</a><a class="versions_item" href="/vfs/credit/annual/2020/inrbg/202007/2268.rar">на 1 июля</a><a class="versions_item" href="/vfs/credit/annual/2020/inrbg/202010/2268.rar">на 1 октября</a></div>
+  <div class="versions_items" data-versions-items="2019" data-item-select="2019"><a class="versions_item" href="/vfs/credit/annual/2019/inrbg/201901/2268.rar">на 1 января</a><a class="versions_item" href="/vfs/credit/annual/2019/inrbg/201904/2268.zip">на 1 апреля</a><a class="versions_item" href="/vfs/credit/annual/2019/inrbg/201907/2268.zip">на 1 июля</a><a class="versions_item" href="/vfs/credit/annual/2019/inrbg/201910/2268.zip">на 1 октября</a></div>
+</div>
+<div class="document-regular">
+  <div class="document-regular_inner">
+    <div class="document-regular_top">
+      <div class="document-regular_left_icon"></div>
+    </div>
+    <div class="body-2 document-regular_main">
+      <div class="document-regular_texts">
+        <div class="document-regular_name" data-toggle=""><a href="/reception/theme/bnk?bnkregnumber=2268"><span class="document-regular_name_visible">Направить жалобу</span></a></div>
+      </div>
+    </div>
+  </div>
+</div>
+                    
+                    <!--/index-->
+                    
+    <div class="page-info">
+        <!--noindex-->
+        
+
+
+<div class="page-info_helpful" data-page-feedback="" data-feedback-url="/Content/PageInfo/RegisterFeedback">
+    <!--noindex-->
+    <div class="helpful" data-helpful="">
+        Страница была полезной?
+        <div class="helpful_btns">
+            <button class="helpful_btn _yes" data-helpful-btn="yes"><i class="helpful_icon"></i><span>Да</span></button>
+            <button class="helpful_btn _no" data-helpful-btn="no"><i class="helpful_icon"></i><span>Нет</span></button>
+        </div>
+    </div>
+    <!--/noindex-->
+</div>
+
+        <!--/noindex-->
+    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer" id="footer">
+        <div class="offsetMenu">
+            <div class="footer_main">
+                <div class="col-md-23 col-xl-22 offset-md-1 offset-xl-2">
+                    <div class="footer_top">
+                        <a class="footer_logo" href="/"></a>
+                        <div class="footer_up gotoUp">
+                            <div class="footer_up_title">Наверх</div>
+                            <div class="footer_up_icon"></div>
+                        </div>
+                    </div>
+                    
+<div class="footer_contacts">
+<div class="footer_address">ул. Неглинная, 12, Москва, 107016</div>
+<div class="footer_phones">
+<div class="footer_phone"><a class="footer_phone_val" href="tel:300">300</a><span>(круглосуточно, бесплатно для&nbsp;звонков с&nbsp;мобильных телефонов)</span></div>
+<div class="footer_phone"><a class="footer_phone_val" href="tel:88003003000">8&nbsp;800 300-30-00</a><span>(круглосуточно, бесплатно для&nbsp;звонков из&nbsp;регионов России)</span></div>
+<div class="footer_phone"><a class="footer_phone_val" href="tel:+74993003000">+7&nbsp;499 300-30-00</a><span>(круглосуточно, в&nbsp;соответствии с&nbsp;тарифами вашего оператора)</span></div>
+
+</div>
+</div>
+<div class="footer_main_block">
+<div class="footer_left-menu">
+<div class="footer_left-menu_item"><a href="/lk_uio/">Личный кабинет участников рынка</a></div>
+<div class="footer_left-menu_item"><a href="/about_br/irp/">Отношения с&nbsp;инвесторами</a></div>
+<div class="footer_left-menu_item"><a href="/rbr/list_inside/">Перечень инсайдерской информации Банка России</a></div>
+<div class="footer_left-menu_item"><a href="/analytics/na_vr/">Официальное опубликование нормативных актов Банка России</a></div>
+<div class="footer_left-menu_item"><a href="/project_na/">Проекты нормативных актов Банка России</a></div>
+<div class="footer_left-menu_item"><a href="/other/holidays/">Перечень нерабочих праздничных дней и&nbsp;перенесенных выходных дней</a></div>
+</div>
+<div class="networks-circle footer_networks">
+<!-- <a class="networks-circle_item _fb" href="https://www.facebook.com/cbr.ru/"></a> -->
+<!--<a class="networks-circle_item _ig" href="https://www.instagram.com/cbrf_official/" title="Instagram"></a>-->
+<a class="networks-circle_item _vk" href="https://vk.com/cbr_official"></a>
+<!--<a class="networks-circle_item _tw" href="https://twitter.com/bank_of_russia"></a>-->
+<a class="networks-circle_item _yt" href="https://www.youtube.com/user/BankofRussia"></a>
+<a class="networks-circle_item _tg" href="https://t.me/centralbank_russia" title="Telegram"></a>
+<a class="networks-circle_item _ydzen" href="https://zen.yandex.ru/id/622372d6a565892091994ea9" title="Яндекс Дзен"></a>
+<a class="networks-circle_item _ok" href="https://ok.ru/group/68858679787580" title="Одноклассники"></a>
+</div>
+</div>
+<div class="footer_menu">
+<div class="footer_menu_items">
+<div class="footer_menu_item"><a href="/about/">О&nbsp;сайте</a></div>
+<div class="footer_menu_item"><a href="/contacts/">Контакты</a></div>
+<div class="footer_menu_item"><a href="/about_br/anticor/">Противодействие коррупции</a></div>
+<div class="footer_menu_item"><a href="/development/">Технические ресурсы</a></div>
+</div>
+			 <div class="footer_menu_item _visually-impaired"><a href="#" title="Версия для слабовидящих"><span class="visually-impaired-on">Версия для&nbsp;слабовидящих</span><span class="visually-impaired-off">Обычная версия</span></a></div>
+</div>
+
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <div class="col-md-23 col-xl-22 offset-md-1 offset-xl-2 row">
+                    <div class="footer_bottom_text col-md-12 col-xl-11">© Банк России, 2000–2023.</div>
+<div class="footer_bottom_aic col-md-11">Дизайн сайта — <a href="https://aic.ru" target="_blank"><img src="/common/images/icons/aic-logo.svg"></a></div>
+
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    
+
+        <div class="popup-cookies _open" data-popup-cookies="">
+            <div class="popup-cookies_title">
+                На сайте Банка России используются файлы cookie
+            </div>
+            <div class="popup-cookies_subtitle">
+                Оставаясь на <a href="/">www.cbr.ru</a>, вы принимаете
+                <a href="/user_agreement/">пользовательское соглашение</a>
+            </div>
+            <button class="btn _medium _blue " data-popup-cookies-btn="">
+                Подтвердить
+            </button>
+        </div>
+
+    
+<!--[if IE 9]><script>$('body').addClass('ie9')</script><![endif]-->
+<script src="/Modules/Content/Scripts/PageInfo.js?v=v3116962712" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function () {
+            Content_PageInfo.init($('[data-page-feedback]'));
+        });
+    </script>
+
+
+
+
+
+<div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div class="mobile-tooltip" style="display: none;"><div></div><div class="mobile-tooltip_close"></div></div><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div></body></html>

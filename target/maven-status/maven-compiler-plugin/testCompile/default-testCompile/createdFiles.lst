@@ -1,0 +1,9 @@
+pages\web_desktop\CbrInfoMtsBankPages.class
+pages\web_desktop\MtsIpotekaPage.class
+tests\web_desktop\MtsOfficeAndAtmMap.class
+tests\web_desktop\MtsMortgageСosttInCalculator.class
+pages\web_desktop\MtsOfficeAndAtmPage.class
+config\ProjectConfig.class
+pages\web_desktop\MtsHomePage$SocialMediaLinks.class
+pages\web_desktop\MtsHomePage.class
+tests\web_desktop\MtsSocalMediaLink.class
